@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.logo{
+    width: 180px;
+}
+.logo img{
+    max-width: 100%;
+}
+.nav-link{
+    font-size: 18px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #cecece;
+}
+.carousel-indicators .active{
+    background-color: #ff9c35;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carosel-text{
+    width: 40%;
+}
+.carousel-img{
+    width: 45%;
+}
+.carosel-text h3{
+    color: #1f1f1f;
+    font-size: 41px;
+    margin: 25px 0;
+}
+.carosel-text p{
+    color: #707070;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.buy-btn{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    transition: 0.2s;
+}
+.buy-btn:hover{
+    color: #000;
+    background-color: #fff;
+}
+.smartphone-section,.laptop-section{
+    padding: 50px 0;
+}
+.section-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.section-title h3{
+    color: #1f1f1f;
+    font-size: 30px;
+}
+.see-more{
+    color: #FFA516;
+    font-size: 22px;
+    text-decoration: none;
+}
+.see-more:hover{
+    color: #FFA516;
+}
+.card{
+    padding: 20px;
+    box-shadow: 10px 10px 20px 0px #707070;
+}
+
+.card-title{
+    font-size: 24px;
+    color: #1f1f1f;
+    margin: 20px 0;
+}
+.card-text{
+    font-size: 16px;
+    color: #707070;
+    margin: 30px 0;
+}
+.card-body{
+    text-align: center;
+    padding: 50px 0;
+}
+.card-body h5{
+    color: #1f1f1f;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.right-big-img{
+    max-width: 100%;
+}
+.left-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-middle{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+.middle-col{
+    display: flex;
+}
